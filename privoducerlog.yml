@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: ${port:8762}
+spring:
+  application:
+    name: privoducerlog
+  data:
+    mongodb:
+      host: 127.0.0.1
+      database: test
+      port: 27017

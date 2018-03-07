@@ -12,4 +12,4 @@ spring:
       host: 127.0.0.1
       database: test
       port: 27017
-from: test
+from: admin
